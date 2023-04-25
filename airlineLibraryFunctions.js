@@ -25,7 +25,6 @@ function getAirline(hub){
   }
 return matches; 
 }
-  console.log(getAirline("wilmingtno"));
 
 //Find main hubs based on icao code as an input
 function getHub(icao){
@@ -43,7 +42,6 @@ function getHub(icao){
   }
 return matches; 
 }
-  console.log(getHub("bmj"));
 
 //Find the oldest airline based on airline type as an input
 function getOldest(type){
@@ -59,7 +57,6 @@ function getOldest(type){
   }
  return oldestAirline; 
 }
-console.log(getOldest("Charter"));
 
 //Find type of Airline based on callsign 
 function getAirlinetype(cs){
@@ -71,7 +68,6 @@ function getAirlinetype(cs){
   }
   return type;
 }
-console.log(getAirlinetype("bemidji"));
 
 //Find all airlines founded in a certain year
 function getAirline2(fy){
@@ -83,7 +79,6 @@ function getAirline2(fy){
   }
 return matches;
 }
-console.log(getAirline2(1964));
 
 
 function getColumn(url, columnNumber){
